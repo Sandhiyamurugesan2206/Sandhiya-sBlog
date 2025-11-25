@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Lifestyle Blog</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <style>
+    body {
+      margin: 0;
+      font-family: Georgia, serif;
+      background-image: url('https://img.freepik.com/free-vector/abstract-soft-colorful-watercolor-texture-background-design_1055-13589.jpg?semt=ais_hybrid&w=740&q=80');
+      background-size: cover;
+      background-repeat: no-repeat;
+      scroll-behavior: smooth;
+    }
+
+    nav {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background: rgba(255, 255, 255, 0.95);
+      display: flex;
+      justify-content: center;
+      padding: 15px 0;
+      z-index: 1000;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    nav a {
+      margin: 0 20px;
+      color: #2f4f4f;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 18px;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #ed6cc0;
+    }
+
+    h1 {
+      font-size: 60px;
+      text-align: center;
+      margin-top: 120px;
+    }
+
+    h1 a {
+      color: #FF69B4;
+      text-decoration: none;
+    }
+
+    .section {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background-color: rgba(255, 255, 255, 0.8);
+      margin: 80px auto;
+      border-radius: 15px;
+      max-width: 1200px;
+      padding: 40px;
+      gap: 30px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+      min-height: 500px;
+    }
+
+    .section.reverse {
+      flex-direction: row-reverse;
+    }
+
+    .img-container {
+      flex: 1;
+      text-align: center;
+    }
+
+    .img-container img {
+      max-width: 100%;
+      height: 450px;
+      border-radius: 12px;
+      object-fit: cover;
+    }
+
+    .text-container {
+      flex: 1.2;
+    }
+
+    .text-container h2 {
+      color: darkgreen;
+      font-size: 28px;
+      margin-bottom: 20px;
+    }
+
+    .text-container p {
+      font-size: 20px;
+      line-height: 1.5;
+      text-align: justify;
+      white-space: pre-line;
+    }
+
+    #social {
+      text-align: center;
+      background-color: rgba(255, 255, 255, 0.85);
+      padding: 50px 20px;
+      margin-top: 100px;
+      border-radius: 20px;
+      width: 90%;
+      max-width: 1000px;
+      margin-left: auto;
+      margin-right: auto;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    #social h2 {
+      color: #2f4f4f;
+      font-size: 28px;
+      margin-bottom: 20px;
+    }
+
+    #social a {
+      font-size: 50px;
+      margin: 20px;
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+
+    #social .fa-instagram {
+      color: #ed6cc0;
+    }
+
+    #social .fa-linkedin {
+      color: #0072b1;
+    }
+    #social .fa-envelope {
+  color: #d44638; /* Gmail red */
+}
+
+
+    hr {
+      margin: 30px auto;
+      width: 60%;
+      border: 1px solid #aaa;
+    }
+
+    .quote {
+      font-style: italic;
+      font-size: 22px;
+      color: #444;
+      margin-top: 30px;
+    }
+
+    @media screen and (max-width: 768px) {
+      .section,
+      .section.reverse {
+        flex-direction: column;
+        padding: 30px 20px;
+      }
+
+      .img-container img {
+        height: auto;
+      }
+
+      nav {
+        flex-wrap: wrap;
+      }
+
+      nav a {
+        margin: 10px;
+        font-size: 16px;
+      }
+
+      h1 {
+        font-size: 40px;
+      }
+
+      .text-container p {
+        font-size: 18px;
+      }
+
+      #social a {
+        font-size: 40px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<nav>
+  <a href="#myself">Myself</a>
+  <a href="#school">Schoolings</a>
+  <a href="#Books">Books</a>
+  <a href="#hobbies">Hobbies</a>
+  <a href="#Bucket">Bucket List</a>
+  <a href="#intro">Intro</a>
+  <a href="#social">Contact</a>
+</nav>
+
+<h1><a href="#intro">My Lifestyle Blog</a></h1>
+
+<!-- Section: Myself -->
+<section class="section" id="myself">
+  <div class="img-container">
+    <img src="girl1.jpg" alt="Myself Image">
+  </div>
+  <div class="text-container">
+    <h2>🌸 Hey, you beautiful soul! Welcome to my little corner of the internet!!!</h2>
+    <p>
+I’m Sandhiya — a curious wanderer in the world of code and chaos, born under Karur’s quiet skies, raised with dreams louder than thunder.
+
+I don’t just chase goals… I question why they matter. Engineer by day, starry-eyed thinker by night, I sip on thoughts like warm coffee — strong, deep, sometimes a little sweet.
+
+Words are my playground, logic is my toolkit, and in between, I live for those little sparks — a sunset, a shared smile, a bug finally fixed.
+
+I’ve stumbled, stuttered, stood back up, with 92% on my 12th board and a heart that scores even higher in hope. From classrooms to coding labs, from stage fright to bold mics, I’m learning to be loud — not in volume, but in value.
+
+Short-term? A desk in an MNC.
+Long-term? A passport full of stamps and two parents smiling beside me.
+
+So if you’re into heartbeats, hashtags, and human moments — stick around. We’ve got stories to tell, and maybe, just maybe, you’ll find a bit of you in me.
+    </p>
+  </div>
+</section>
+
+<!-- Section: School -->
+<section class="section reverse" id="school">
+  <div class="img-container">
+    <img src="girl.jpg" alt="School Image">
+  </div>
+  <div class="text-container">
+    <h2>📚 A Little Trail Through My Learning Days</h2>
+    <p>
+School was never just about marks for me — it was where curiosity quietly bloomed.
+
+I studied at Sowdambikaa Group of Schools, where the days were filled with chalkboard scribbles, lunchbox laughter, and dreams tucked inside notebooks.
+
+I scored 92% in 12th grade, but more than the numbers, it was the thrill of learning that stayed with me. Among all the subjects, Physics had a gentle way of making me wonder — not just how things worked, but why.
+
+Now, I’m in my second year of Computer Science Engineering at M. Kumarasamy College of Engineering, where learning feels like building my own little future — one line of code, one solved bug, one step closer to the life I imagine.
+
+It’s not always easy — but with a curious heart and a stubborn mind, I’m making it mine, day by day.
+    </p>
+  </div>
+</section>
+
+<!-- Section: Books -->
+<section class="section" id="Books">
+  <div class="img-container">
+    <img src="book.jpg" alt="Books Image">
+  </div>
+  <div class="text-container">
+    <h2>📚 Chapters That Shaped Me</h2>
+    <p>
+Books have always been my quiet friends — soft-spoken, deep, and full of surprises.
+
+I’ve wandered through Kalki’s Ponniyin Selvan, got lost in the emotion of "The Alchemist", and felt the calm truth in "Atomic Habits".
+
+Each story left a mark — some taught me to dream, others, to stay grounded.
+
+I may not read fast, but I read with feeling. And every good book? It becomes a part of who I am.
+    </p>
+  </div>
+</section>
+
+<!-- Section: Hobbies -->
+<section class="section reverse" id="hobbies">
+  <div class="img-container">
+    <img src="cake3.jpg" alt="Hobbies Image">
+  </div>
+  <div class="text-container">
+    <h2>🍰 Things I Do for the Soul</h2>
+    <p>
+When life gets loud, I find peace in quiet things.
+
+I love cooking and baking — not just for the taste, but for the calm it brings. There’s something magical about turning simple ingredients into something warm, comforting, and made with love.
+
+I spend time reading, losing myself in other people’s worlds, and then return to mine — where I write down random thoughts, messy, honest, and straight from the heart.
+
+These aren’t just hobbies. They’re little rituals that make me feel more me.
+    </p>
+  </div>
+</section>
+
+<!-- Section: Bucket List -->
+<section class="section" id="Bucket">
+  <div class="img-container">
+    <img src="bucket.jpg" alt="Bucket Image">
+  </div>
+  <div class="text-container">
+    <h2>📝 My Heart’s Bucket List</h2>
+    <p>
+I dream of becoming an independent woman — one who faces challenges with courage and calm.
+
+I want to take my parents abroad, watch their eyes light up in places they've only seen in pictures. That moment? It'll mean more than any medal.
+
+Helping people who struggle — financially or emotionally — has always been close to my heart. Not for attention, but for the quiet joy it brings.
+
+And above all, I just want a life that feels genuinely mine — strong, kind, and full of purpose.
+    </p>
+  </div>
+</section>
+
+<!-- Section: Intro -->
+<section class="section reverse" id="intro">
+  <div class="img-container">
+    <img src="good.jpg" alt="Intro Image">
+  </div>
+  <div class="text-container">
+    <h2>What is this blog about?</h2>
+    <p>
+Hey, I’m Sandhiya — a curious soul from Karur, walking the path of a Computer Science student with a heart full of dreams.
+
+I find joy in reading, baking, cooking, and writing down thoughts that don’t always make sense but always feel true.
+
+I believe in quiet strength, simple living, and standing tall through any storm. My biggest dream? To become an independent woman and take my parents abroad one day.
+
+I’ve always wanted to help people rise — not for praise, but for peace.
+
+Books shaped my thoughts, code shapes my future, and kindness shapes my soul.
+
+This blog is a little piece of me — honest, warm, and always growing. Thanks for being here. Let’s unfold the chapters together. 💫
+— With love, <a href="#social">Sandhiya ❤</a>
+    </p>
+  </div>
+</section>
+
+<!-- Contact Section -->
+<section id="social">
+  <hr>
+  <h2>Let’s Connect</h2>
+  <a href="https://www.instagram.com/sandhiya._.murugesan" target="_blank"><i class="fab fa-instagram"></i></a>
+  <a href="https://www.linkedin.com/in/sandhiya-murugesan-a0ab8728a" target="_blank"><i class="fab fa-linkedin"></i></a>
+   <a href="sandhiyaofficial2006@gmail.com"><i class="fas fa-envelope"></i></a>
+  <hr>
+  <div class="quote">“Live gently, dream deeply, and let every little thing you love become your story.”</div>
+</section>
+
+</body>
+</html>
